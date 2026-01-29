@@ -75,22 +75,22 @@ console.log(firstFruit);
 console.log(secondFruit);
 console.log(otherFruits);
 
-2. "მომხმარებლის პროფილი" (Object Destructuring)
-
-პირობა: მოცემულია ობიექტი:
-    const user = {
-    id: 5,
-        username: "gio_dev",
-        personalInfo: {
-        firstName: "გიორგი",
-            lastName: "ბერიძე",
-            city: "თბილისი"
-    }
-};
-დავალება:
-    დესტრუქტურიზაციის გამოყენებით ამოიღეთ id და username.
-    ამოიღეთ firstName და city პირდაპირ personalInfo ობიექტიდან.
-    ცვლადს username გადაარქვით სახელი და დაარქვით loginName.
+// 2. "მომხმარებლის პროფილი" (Object Destructuring)
+//
+// პირობა: მოცემულია ობიექტი:
+//     const user = {
+//     id: 5,
+//         username: "gio_dev",
+//         personalInfo: {
+//         firstName: "გიორგი",
+//             lastName: "ბერიძე",
+//             city: "თბილისი"
+//     }
+// };
+// დავალება:
+//     დესტრუქტურიზაციის გამოყენებით ამოიღეთ id და username.
+//     ამოიღეთ firstName და city პირდაპირ personalInfo ობიექტიდან.
+//     ცვლადს username გადაარქვით სახელი და დაარქვით loginName.
 
 const user = {
     id: 5,
@@ -139,13 +139,12 @@ const finalLaptop = {
 }
 console.log(finalLaptop);
 
-
-4. "მაქსიმალური რიცხვი" (Spread in Functions)
-
-პირობა: მოცემულია რიცხვების მასივი: const nums = [45, 89, 23, 7, 99, 12];
-დავალება:
-    გამოიყენეთ JavaScript-ის ჩაშენებული ფუნქცია Math.max().
-    მასივი nums ფუნქციას გადაეცით Spread ოპერატორის გამოყენებით, რათა იპოვოთ ყველაზე დიდი რიცხვი.
+//
+// 4. "მაქსიმალური რიცხვი" (Spread in Functions)
+// პირობა: მოცემულია რიცხვების მასივი: const nums = [45, 89, 23, 7, 99, 12];
+// დავალება:
+//     გამოიყენეთ JavaScript-ის ჩაშენებული ფუნქცია Math.max().
+//     მასივი nums ფუნქციას გადაეცით Spread ოპერატორის გამოყენებით, რათა იპოვოთ ყველაზე დიდი რიცხვი.
 
 const nums = [45, 89, 23, 7, 99, 12];
 console.log(Math.max(...nums));
